@@ -1,9 +1,12 @@
 import logo from './logo.svg';
+import Reloj from './Componentes/Reloj';
 import './App.css';
+import Navegacion from './Componentes/Navegacion'
 
 function App() {
   return (
     <div className="App">
+      <Navegacion />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <Reloj />
       </header>
     </div>
   );
